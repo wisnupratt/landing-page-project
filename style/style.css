@@ -1,10 +1,10 @@
 header {
-    background: #333;
-    color: #fff;
+    background: #aliceblue;
+    color: #333;
     padding-top: 15px;
     min-height: 70px;
     text-align: center;
-    border-bottom: #333 3px solid;
+    border-bottom: #333 3px;
 }
 
 header ul {
@@ -20,9 +20,10 @@ header li {
 }
 
 header a {
-    color: aliceblue;
+    color: #333;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 
@@ -46,18 +47,19 @@ body {
 }
 
 .card {
-    background-color: #333;
+    background-color: #fff;
     border-radius: 5px;
     padding: 10px    10px;
+    box-shadow: #333;
 
 }
 .card h3 {
-    color: #fff;
+    color: #333;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .card p {
-    color: #fff;
+    color: #333;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
