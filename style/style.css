@@ -1,0 +1,32 @@
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 15px;
+    min-height: 70px;
+    text-align: center;
+    border-bottom: #ffffff 3px solid;
+}
+
+header ul {
+    text-align: center;
+    padding-inline-start: 0;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px;
+    
+}
+
+header a {
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
