@@ -135,3 +135,10 @@ body {
     border-radius: 5px;
 
 }
+
+footer {
+    display: grid;
+    background-color: #fff;
+    padding: 100px;
+    text-align: center;
+}
