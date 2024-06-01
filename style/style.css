@@ -51,6 +51,37 @@ body {
     background: #acc5cb5e;
 }
 
+.hero {
+    background: url('https://c4.wallpaperflare.com/wallpaper/153/294/439/blue-nebula-galaxy-stars-others-wallpaper-preview.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 500px;  
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.hero .button-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+}
+.hero .button-container a {
+    grid-column: span 4;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #77a4a2;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.hero a:hover {
+    color: #b6f2ff;
+}
+
 .container {
     margin: 20px 20px;
 }
